@@ -114,7 +114,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = GENESIS_BLOCK_TIME + 12;
         
-        nLastPOWBlock = 100000000;
+        nLastPOWBlock = 80000;
         nLastFairLaunchBlock = 120;
     }
     virtual const CBlock& GenesisBlock() const { return genesis; }
